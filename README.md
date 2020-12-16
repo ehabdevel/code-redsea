@@ -12,5 +12,5 @@
 * * *
 
 <div style="text-align: right">
-        &copy; 2021 Code-Redsea.
+      code-redsea support open source. &copy; 2021 Code-Redsea.
 </div>
