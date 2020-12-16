@@ -1,13 +1,10 @@
 
 
 
-:warning:	:warning:	:warning:	:warning:	:warning:	
+<p align="justify">
+
 
 # Under Construction
 
-:no_entry:	:no_entry:	:no_entry:	
-
-:warning:	:warning:	:warning:	:warning:	:warning:	
-
-
-:copyright:	 :registered:	code-redsea.com
+www.code-redsea.com
+</p>
