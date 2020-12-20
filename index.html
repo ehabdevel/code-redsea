@@ -46,10 +46,10 @@ hr {
 
 <div class="bgimg">
   <div class="topleft">
-    <p>code-redsea.com</p>
+    <p id="name"></p>
   </div>
-  <div class="middle">  
-    <h1 id="soon"></h1> 
+  <div class="middle"> 
+    <h1>COMING SOON!</h1>
     <hr>
     <p>Under Construction</p>
     <p id="nyc" style="font-size:30px"></p>
@@ -64,12 +64,12 @@ hr {
   
   
   var i = 0;
-var txt = 'COMING SOON!'; /* The text */
-var speed = 50; /* The speed/duration of the effect in milliseconds */
+var txt = 'www.code-redsea.com'; /* The text */
+var speed = 100; /* The speed/duration of the effect in milliseconds */
 
 function typeWriter() {
   if (i < txt.length) {
-    document.getElementById("soon").innerHTML += txt.charAt(i);
+    document.getElementById("name").innerHTML += txt.charAt(i);
     i++;
     setTimeout(typeWriter, speed);
   }
