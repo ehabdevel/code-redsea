@@ -42,16 +42,14 @@ hr {
   width: 40%;
 }
 </style>
-<body>
+<body onload="typeWriter()">
 
 <div class="bgimg">
   <div class="topleft">
     <p>code-redsea.com</p>
   </div>
   <div class="middle">  
-    <button onclick="typeWriter()">Ok</button>
-    <p id="soon"></p> 
-    <h1>COMING SOON</h1>
+    <h1 id="soon"></h1> 
     <hr>
     <p>Under Construction</p>
     <p id="nyc" style="font-size:30px"></p>
@@ -66,7 +64,7 @@ hr {
   
   
   var i = 0;
-var txt = 'COMING SOON! COMING SOON!'; /* The text */
+var txt = 'COMING SOON!'; /* The text */
 var speed = 50; /* The speed/duration of the effect in milliseconds */
 
 function typeWriter() {
