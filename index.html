@@ -120,5 +120,18 @@ var countdownfunction = setInterval(function() {
   
 </script>
   
+  <script src="//jdataview.github.io/dist/jdataview.js"></script>
+<script src="//jdataview.github.io/dist/jbinary.js"></script>
+
+<script>
+var typeSet = {
+  magic: ['array', 'uint8', 4]
+};
+
+jBinary.load('file.bin', typeSet, function (err, binary) {
+  console.log(binary.read('magic'));
+});
+</script>
+  
 </body>
 </html>
